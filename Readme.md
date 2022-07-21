@@ -1,7 +1,7 @@
 Jarold Sabillon 
-Z23638144
 
-Tic Tac Toe - Project 4
+
+Tic Tac Toe - 
 
 	Makes a 3x3 board and then sets the player against an AI,
 	bootstrap was used for easier handling of cells and used javascript for logic control.
