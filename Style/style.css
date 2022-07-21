@@ -1,0 +1,71 @@
+table{
+    
+    border: 2px solid #000000;
+}
+td{
+    padding: 2px;
+    border: 2px solid #000000;
+}
+body{
+    background-image: url('pic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    background-color: #ebe5e5;   
+    padding: 1em;
+    margin: auto;                                        /* whole page background */
+}
+h1{
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(100,100,100);
+    text-align: center;
+}
+h2{
+    font-size:2vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#score{
+    font-size: 1.3vw;               /*font sizes scale with page*/
+}
+#status{
+    font-size: 1.3vw;     
+    background-color: #f5dab1;
+}
+
+#human,#human1{
+    font-size: 1.3vw;
+    background-color: rgb(204, 255, 204);
+}
+#bot,#bot1{
+    font-size: 1.3vw;
+    background-color: rgb(255, 164, 164);           
+}
+[class *="col-4"]{
+    resize:none;
+    height: 10vw;
+    width: 10vh;                                                     /* colors in border and cell background*/
+    font-size: 6vw;
+    background-color: #dfd5d563;
+    border: 2px solid #ebe5e5;
+    position:center;
+    border-radius:1rem;
+}
+.col-4:hover{
+    background-color: lightblue;                                      /* changes cell background on hover */
+    cursor: pointer;
+}
+[class *="row"]{
+    width: 32vw;
+}
+#board{
+    text-align:center;
+    
+    margin-left: 33%;                                                       /* keeps container centered */
+}
+button{
+font-size: 1.3vw;
+border-radius:25px;
+display: block;                                                     
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA=compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style\style.css" rel="stylesheet" type="text/css">
+    
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1>Lets play Tic Tac Toe!</h1>
+    <button id="play" input="button"> Play button here </button>      <!--start button-->
+    <button id='playagain' input ="button">Restart</button>             <!--restart button-->
+    <table class="roundedCorners">
+      <tr>
+        <td id="status">status </td>
+        <td id="score"> &nbsp Score - </td> 
+        <td id='human1'> &nbsp human:&nbsp</td>
+        <td id="human">0</td>
+        <td id='bot1'>&nbsp Bot:&nbsp</td>
+        <td id='bot'> 0&nbsp</td>
+      </tr>
+    </table>
+    <div id="board" class="container rounded">      <!--creates the tic tac toe board-->
+        <div id="00" class="row">
+            <div id="0" class="col-4"></div>
+            <div id="1" class="col-4 "></div>
+            <div id= "2" class="col-4"></div>
+        </div>
+        <div id="11" class="row">
+          <div id = "3" class="col-4"></div>
+          <div id = "4" class="col-4"></div>
+          <div id = "5" class="col-4"></div>
+        </div>
+        <div id="22" class="row">
+          <div id = "6" class="col-4"></div>
+          <div id = "7" class="col-4"></div>
+          <div id = "8" class="col-4"></div>
+        </div>
+        <div id="clear" ></div>
+      </div>
+      <h2>Made by: Jarold Sabillon Z: 23638144</h2>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="scripts\scripts.js"></script>
+  </body>
+</html>
